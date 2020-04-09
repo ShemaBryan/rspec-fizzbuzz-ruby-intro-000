@@ -12,6 +12,7 @@ eslif
 it 'returns "Buzz" when the number is divisible by 5' do
 
   expect(fizz_5).to eq("Buzz")
-else 'returns "nil" when the number 
+else 'returns "nil" when the number is 4' do
+  expect(fizz_4).to eq("nil")
   end
 end
