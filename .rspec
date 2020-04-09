@@ -3,7 +3,7 @@ it 'returns "Fizzbuzz" when the number is divisble by 15' do
   fizz_15 = fizzbuzz(15)
 
   expect(fizz_15).to eq("Fizzbuzz")
-elsif
+end
 it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
 
